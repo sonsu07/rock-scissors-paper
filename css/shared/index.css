@@ -1,0 +1,61 @@
+@import "modules/button.css";
+@import "modules/layout.css";
+@import "modules/sizing.css";
+@import "modules/typhography.css";
+@import "modules/spacing.css";
+@import "modules/interactivity.css";
+@import "modules/border.css";
+@import "modules/flex.css";
+@import "modules/background.css";
+@import "modules/shadow.css";
+
+.container {
+    width: 90vw;
+    height: 80vw;
+    /*background-color: gray;*/
+
+    margin-right: auto;
+    margin-left: auto;
+
+    position: relative;
+    top: 20vw;
+}
+
+.btn-box {
+    width: 60vw;
+    height: 10vw;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /*background-color: yellow;*/
+}
+
+.banner {
+    font-size: 30px;
+    width: 40vw;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    border-radius: 4px;
+
+    background-color: lightblue;
+}
+
+@media screen and (max-width: 1300px) {
+    .btn {
+        font-size: 20px;
+        transition: all 1s;
+        min-width: 80px;
+        min-height: 30px;
+    }
+
+    .banner {
+        min-width: 200px;
+        font-size: 24px;
+        transition: all 1s;
+    }
+}

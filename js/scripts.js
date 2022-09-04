@@ -2,6 +2,8 @@ const ROCK = '바위';
 const SCISSORS = '가위';
 const PAPER = '보';
 
+
+
 // 입력받기
 let userInput = prompt('가위, 바위, 보');
 
@@ -10,6 +12,8 @@ if (userInput !== SCISSORS && userInput !== ROCK && userInput !== PAPER) {
     alert('가위, 바위, 보 중 하나를 입력해주세요');
 
 }
+
+
 
 // 랜덤값에 따른 컴퓨터 출력
 let rnd = Math.random();
